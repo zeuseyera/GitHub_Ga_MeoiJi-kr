@@ -20,97 +20,109 @@
 
 ### 코딩이 필요없다
 
-이 가르침을 완료하기 위해서는, GitHub.com의 계정과 인터넷접근이 필요하다. 코드의 작성방법은 알 필요가 없다, 명령행을 사용한다, 또는 Git(판조절 깃허브 소프트웨어는 내장(제공)됨)을 설치한다.  
+이 가르침을 완료하기 위해서는, **GitHub.com의 계정** 과 인터넷접근이 필요하다. 코드의 작성방법은 알 필요가 없다, 명령행을 사용한다, 또는 Git(판조절 깃허브 소프트웨어는 내장(제공)됨)을 설치한다.  
 
 > 조언: 분리된 창(또는 탭)에 이 길잡이를 연다 그러면 가르침의 단계를 완료하는 동안 볼수 있다.
 
 ## 단계 1. 저장소 생성
 
-A repository is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs. We recommend including a README, or a file with information about your project. GitHub makes it easy to add one at the same time you create your new repository. It also offers other common options such as a license file.  
 **저장소(repository)는** 하나의 과제를 구성하기 위하여 일반적으로 사용한다. 저장소는 폴더와 파일, 이미지, 비디오, 스프레드쉬트, 그리고 자료집합을 포함할 수 있다-과제에 필요한 모든것. 우리는 _README(나를봐)_ 를 포함하는것을 권고한다, 또는 과제에 대한 정보가 포함된 파일. 깃허브는 쉽게 새로운 저장소를 동시에 추가할 수 있다. _또한 권리(license)파일 같은 다른 공통 선택사양도 제공한다._
 
-Your hello-world repository can be a place where you store ideas, resources, or even share and discuss things with others.
-자신의 hello-world 저장소는 아이디어, 자원을 저장, 더불어서 심지어 다른사람과 공유하고 의논하는 장소가 될 수 있다.
+자신의 _hello-world_ 저장소는 아이디어, 자원을 저장, 더불어서 심지어 다른사람과 공유하고 의논하는 장소가 될 수 있다.
 
 ### 새로운 저장소를 생성하기 위하여
-<p align="center"><img width="100%" src="images/저장소 생성.png" /></p>
 
-1. 상단우측 모서리에, 자신의 아바타 또는 신원상징 옆을, 클릭하고 **New repository** 를 선택한다.
+<p align="center"><img width="90%" src="images/저장소 생성.png" /></p>
+
+1. 상단우측 모서리에, 자신의 아바타 또는 신원상징 옆을, 클릭하고 **New repository(새 저장소)** 를 선택한다.
 2. **Repository name(저장소 이름)** 을 "hello-world"로 한다(2018년 01월 24일 현재 한글로된 저장소 이름은 지원이 안된다)
 3. **Description(묘사)** 에 짧게 묘사한다.
 4. **Initialize this repository with a README(README를 포함하여 이 저장소를 초기화)** 를 선택한다.
 
-**Create repository(저장소 생성)** 를 누른다. 
+**Create repository(저장소 생성)** 를 누른다. :tada:
 
 ## 단계 2. 가지 생성
 
-Branching is the way to work on different versions of a repository at one time.  
+**가지뻗기(Branching)** 는 저장소의 다양한 판(version)을 한번에 작업하는 방법이다.
 
-By default your repository has one branch named master which is considered to be the definitive branch. We use branches to experiment and make edits before committing them to master.  
+기본적으로 저장소는 _줄기(마스터, master)_ 라는 이름인 하나의 가지(branch)가 있다 이것은 확정된가지로 인정한다. 우리는 실험과 편집하기를 위하여 가지를 사용한다 _줄기(master)_ 로 지르기(커밋, commit)를 하기 전에.
 
-When you create a branch off the master branch, you’re making a copy, or snapshot, of master as it was at that point in time. If someone else made changes to the master branch while you were working on your branch, you could pull in those updates.  
+_줄기(master)_ 에서 가지를 생성할 때, 그 시점의 _줄기_ 로 자신의 복사본, 또는 스냅샷(snapshot)을 만든다. 만약 자신의 가지에서 작업하는 동안 다른 누군가가 _줄기_ 를 변경했다면, 갱신된 것들을 자신의 가지에 끌어오기(pull)를 할 수 있다.
 
-This diagram shows:
-- The master branch
-- A new branch called feature (because we’re doing ‘feature work’ on this branch)
-- The journey that feature takes before it’s merged into master 
+이 도형이 보여주는 것:
+- _줄기(master)_ 라는 가지
+- _특징(feature)_ 라고 하는 새가지(이 가지에서 '특징 작업'을 하기 때문이다)
+- _줄기(master)_ 로 합치기(merge) 전에 _특징(feature)_ 을 가지는 여정
 
-Have you ever saved different versions of a file? Something like:
-- story.txt
-- story-joe-edit.txt
-- story-joe-edit-reviewed.txt
+<p align="center"><img width="90%" src="images/저장소 가지.png" /></p>
 
-Branches accomplish similar goals in GitHub repositories.  
+다른판의 파일을 저장한 적이 있는가? 이런것 처럼:
+- _story.txt_
+- _story-joe-edit.txt_
+- _story-joe-edit-reviewed.txt_
 
-Here at GitHub, our developers, writers, and designers use branches for keeping bug fixes and feature work separate from our master (production) branch. When a change is ready, they merge their branch into master.
+가지(branch)는 깃허브 저장소에서 비슷한 목적을 달성한다.
 
-### To create a new branch
-<p align="center"><img width="100%" src="images/저장소 가지.png" /></p>
+여기 깃허브에서, 우리 개발자, 저자, 그리고 설계자는 버그 수정을 위하여 가지(branch)를 사용한다 그리고 _줄기(master)_ (라고 생성된) 가지와 분리된 특징 작업을 한다. 변경사항이 준비되면, 그 가지(branch)를 _줄기(master)_ 로 병합한다.
 
-1. Go to your new repository hello-world.
-2. Click the drop down at the top of the file list that says branch: master.
-3. Type a branch name, readme-edits, into the new branch text box.
-4. Select the blue Create branch box or hit “Enter” on your keyboard.
+### 새가지 생성을 위하여
+<p align="center"><img width="90%" src="images/나를봐-수정(readme-edits).gif" /></p>
 
-Now you have two branches, master and readme-edits. They look exactly the same, but not for long! Next we’ll add our changes to the new branch.
+1. _hello-world_ 라는 자신의 새저장소로 이동한다.
+2. 파일목록의 상단에 있는 _branch:master_ 라는 떨굼(드롭다운)을 클릭한다.  
+3. 가지이름을 타자한다, _readme-edits_, 문자상자에 새가지로.
+4. _Create branch_ 라는 청색 상자를 클릭한다 아니면 자신의 키보드에서 “Enter”키를 누른다.
 
-## 단계 3. 만들고 지르기(commit)로 변경한다 Make and commit changes
+이제 2개의 가지를 가진다, _줄기(master)_ 와 _readme-edits_. 그것은 똑같아 보인다, 하지만 오래가지 않는다! 새가지에 우리의 변경사항을 추가한 다음에는.
 
-Bravo! Now, you’re on the code view for your readme-edits branch, which is a copy of master. Let’s make some edits.
-On GitHub, saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular change was made. Commit messages capture the history of your changes, so other contributors can understand what you’ve done and why.
-Make and commit changes
-Click the README.md file.
-Click the  pencil icon in the upper right corner of the file view to edit.
-In the editor, write a bit about yourself.
-Write a commit message that describes your changes.
-Click Commit changes button.
+## 단계 3. 변경하고 지르기(commit)하기
 
-These changes will be made to just the README file on your readme-edits branch, so now this branch contains content that’s different from master.
+브라보! 이제, 당신은 자신의 _readme-edits_ 라는 가지에 대한 코드보기에 있다, 이것은 _줄기(master)_ 의 사본이다. 몇가지 사항을 수정해 보자.
+
+깃허브 에서는, 저장된 변경사항을 지르기(commit)라고 한다. 모든 지르기는 연관된 지르기(commit) 알림 가지고 있다, 이것은 특별한 변경이 이루어진 이유를 설명하는 묘사이다. 지르기(commit) 알림은 자신의 변경이력을 채집한다, 그래서 자신이 한 일과 이유를 다른 참여자가 이해할 수 있다.
+
+### 변경하고 지르기(commit)하기
+<p align="center"><img width="90%" src="images/지르기(commit).png" /></p>
+
+1. _README.md_ 파일을 클릭한다.
+2. 수정하기 위한 파일보기의 상단우측 모서리에서 :pencil:연필 상징을 클릭한다.
+3. 편집기에서, 여기저기를 스스로 약간 기록하라.
+4. 자신의 변경사항을 묘사하는 지르기(commit)알림을 기록한다.
+5. **Commit changes(변경사항 지르기)** 버튼을 클릭한다.
+
+이것은 자신의 _readme-edits_ 가지에 있는 README 파일만 변경한다, 그래서 지금 이 가지는 _줄기(master)_ 와 다른 내용을 포함한다.
 
 ## 단계 4. 요청끌어오기 열기
 
 Nice edits! Now that you have changes in a branch off of master, you can open a pull request.
+
 Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in green and red.
+
 As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.
+
 By using GitHub’s @mention system in your pull request message, you can ask for feedback from specific people or teams, whether they’re down the hall or 10 time zones away.
+
 You can even open pull requests in your own repository and merge them yourself. It’s a great way to learn the GitHub Flow before working on larger projects.
-Open a Pull Request for changes to the README
+
+### Open a Pull Request for changes to the README
+
 Click on the image for a larger version
-Step
-Screenshot
-Click the  Pull Request tab, then from the Pull Request page, click the green New pull request button.
 
-In the Example Comparisons box, select the branch you made, readme-edits, to compare with master (the original).
+Step | -  
+------------ | ------------  |  
+Click the  Pull Request tab, then from the Pull Request page, click the green New pull request button. | <p align="center"><img width="50%" src="images/pr-tap.gif" /></p>  
 
-Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit.
+In the Example Comparisons box, select the branch you made, readme-edits, to compare with master (the original). | <p align="center"><img width="50%" src="images/pick-branch.png" /></p>  
 
-When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button.
+Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit. | <p align="center"><img width="50%" src="images/diff.png" /></p>  
 
-Give your pull request a title and write a brief description of your changes.
+When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button. | <p align="center"><img width="50%" src="images/create-pr.png" /></p>  
+
+Give your pull request a title and write a brief description of your changes. | <p align="center"><img width="50%" src="images/pr-form.png" /></p>  
 
 When you’re done with your message, click Create pull request!
 
-Tip: You can use emoji and drag and drop images and gifs onto comments and Pull Requests.
+> Tip: You can use emoji and drag and drop images and gifs onto comments and Pull Requests.
 
 ## 단계 5. 자신의 요청끌어오기를 합친다
 
