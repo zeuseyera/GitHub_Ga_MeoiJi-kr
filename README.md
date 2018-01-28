@@ -66,7 +66,7 @@ _줄기(master)_ 에서 가지를 생성할 때, 그 시점의 _줄기_ 로 자�
 여기 깃허브에서, 우리 개발자, 저자, 그리고 설계자는 버그 수정을 위하여 가지(branch)를 사용한다 그리고 _줄기(master)_ (라고 생성된) 가지와 분리된 특징 작업을 한다. 변경사항이 준비되면, 그 가지(branch)를 _줄기(master)_ 로 병합한다.
 
 ### 새가지 생성을 위하여
-<p align="center"><img width="90%" src="images/나를봐-수정(readme-edits).gif" /></p>
+<p align="center"><img width="60%" src="images/나를봐-수정(readme-edits).gif" /></p>
 
 1. _hello-world_ 라는 자신의 새저장소로 이동한다.
 2. 파일목록의 상단에 있는 _branch:master_ 라는 떨굼(드롭다운)을 클릭한다.  
@@ -94,35 +94,46 @@ _줄기(master)_ 에서 가지를 생성할 때, 그 시점의 _줄기_ 로 자�
 
 ## 단계 4. 요청끌어오기 열기
 
-Nice edits! Now that you have changes in a branch off of master, you can open a pull request.
+멋지게 편집했다! 이제 줄기에서 벗어난 가지에서 변경됐다, 자신의 요청끌어오기를 열 수 있다.
 
-Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in green and red.
+요청끌어오기(pull request)는 깃허브상에서 협업의 핵심이다. 요청끌어오기(pull request)를 열면, 자신의 변경사항과 누군가가 검토한 요청을 제안한다 그리고 자신의 이바지에 끌어온다 그리고 그 가지에 합치기를 한다. 요청끌어오기는 차이를 보여준다, 또는 다름, 양쪽 가지에서 내용의. 변경, 추가, 그리고 빠짐은 녹색과 적색으로 보여준다.
 
-As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.
+지르기(commit)를 하자마자, 요청끌어오기(pull request)와 토론 시작을 열 수 있다, 심지어 코드가 끝나기도 전에.
 
 By using GitHub’s @mention system in your pull request message, you can ask for feedback from specific people or teams, whether they’re down the hall or 10 time zones away.
+깃허브의 @언급하기 체제를 자신의 요청끌어오기(pull request) 알림에 사용함으로써, 특정한 사람이나 단체로부터 응답을 요청할 수 있다, 나락으로 떨어지던지 아니면 10시간 차이가 있던지 어떤지.
 
-You can even open pull requests in your own repository and merge them yourself. It’s a great way to learn the GitHub Flow before working on larger projects.
+당신은 더불어서 자신의 저장소에서 요청당겨오기를 열 수 있다. 이것은 더 큰 과제를 작업하기 전에 깃허브 흐름을 배우기 위한 좋은 방법이다.
 
-### Open a Pull Request for changes to the README
+### README에 대한 변경을 위하여 요청당겨오기를 연다
 
-Click on the image for a larger version
+큰판에 대한 이미지는 클릭한다
 
-Step | -  
------------- | ------------  |  
-Click the  Pull Request tab, then from the Pull Request page, click the green New pull request button. | <p align="center"><img width="50%" src="images/pr-tap.gif" /></p>  
+#### 1 단계
 
-In the Example Comparisons box, select the branch you made, readme-edits, to compare with master (the original). | <p align="center"><img width="50%" src="images/pick-branch.png" /></p>  
+**pull request(요청끌어오기)** 탭을 클릭한다, 그런다음 요청끌어오기(pull request) 페이지에서, **new pull request(새요청끌어오기)** 의 녹색버튼을 클릭한다.
+<p align="center"><img width="50%" src="images/pr-tap.gif" /></p>  
 
-Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit. | <p align="center"><img width="50%" src="images/diff.png" /></p>  
+#### 2 단계
+**Example Comparisons(본보기 비교)** 상자에서 자신이 만든 가지(branch)를 선택한다, _readme-edits_, _줄기(master)_ (원본)와 비교하기 위하여.
+<p align="center"><img width="50%" src="images/pick-branch.png" /></p>  
 
-When you’re satisfied that these are the changes you want to submit, click the big green Create Pull Request button. | <p align="center"><img width="50%" src="images/create-pr.png" /></p>  
+#### 3 단계
+비교페이지의 다름에서 자신의 변경사항을 살펴본다, 그들이 원하는 제안을 확실히 한다.
+<p align="center"><img width="50%" src="images/diff.png" /></p>  
 
-Give your pull request a title and write a brief description of your changes. | <p align="center"><img width="50%" src="images/pr-form.png" /></p>  
+#### 4 단계
+원하는 제안의 변경사항이 만족 스럽다면, 큰 녹색의 **Create Pull Request(요청끌어오기 생성)** 버튼을 클릭한다.
+<p align="center"><img width="50%" src="images/create-pr.png" /></p>  
 
-When you’re done with your message, click Create pull request!
+#### 5 단계
+Give your pull request a title and write a brief description of your changes.
+요청끌어오기(pull request)의 제목을 지정한다 그리고 자신의 변경사항의 간략한 묘사를 기록한다.
+<p align="center"><img width="50%" src="images/pr-form.png" /></p>  
 
-> Tip: You can use emoji and drag and drop images and gifs onto comments and Pull Requests.
+자신의 알림이 끝나면, **Create pull request(요청끌어오기 생성)** 을 클릭한다!
+
+> 조언: 당신은 그림상징과 끌기와 이미지 떨구기와 gif에 주석달기와 요청끌어오기를 할 수 있다.
 
 ## 단계 5. 자신의 요청끌어오기를 합친다
 
