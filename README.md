@@ -136,20 +136,27 @@ By using GitHub’s @mention system in your pull request message, you can ask fo
 
 ## 단계 5. 자신의 요청끌어오기를 합친다
 
-In this final step, it’s time to bring your changes together – merging your readme-edits branch into the master branch.
-Click the green Merge pull request button to merge the changes into master.
-Click Confirm merge.
-Go ahead and delete the branch, since its changes have been incorporated, with the Delete branch button in the purple box.
+In this final step, it’s time to bring your changes together – merging your _**readme-edits**_ branch into the _**master**_ branch.
+
+1. Click the green **Merge pull request** button to merge the changes into _**master**_.
+2. Click **Confirm merge**.
+3. Go ahead and delete the branch, since its changes have been incorporated, with the **Delete branch** button in the purple box.  
+
+<p align="center"><img width="70%" src="images/merge-button.png" /></p>
  
-Celebrate!
-By completing this tutorial, you’ve learned to create a project and make a pull request on GitHub!   
+### 축하한다! Celebrate!
+By completing this tutorial, you’ve learned to create a project and make a pull request on GitHub! :tada::otctocat::zap:
+
 Here’s what you accomplished in this tutorial:
-Created an open source repository
-Started and managed a new branch
-Changed a file and committed those changes to GitHub
-Opened and merged a Pull Request
+
+- Created an open source repository
+- Started and managed a new branch
+- Changed a file and committed those changes to GitHub
+- Opened and merged a Pull Request
+
 Take a look at your GitHub profile and you’ll see your new contribution squares!
-To learn more about the power of Pull Requests, we recommend reading the GitHub Flow Guide. You might also visit GitHub Explore and get involved in an Open Source project 
+
+To learn more about the power of Pull Requests, we recommend reading the GitHub Flow Guide. You might also visit GitHub Explore and get involved in an Open Source project :otctocat:
 
 Tip: Check out our other Guides, YouTube Channel and On-Demand Training for more on how to get started with GitHub.
-Last updated April 7, 2016
+
