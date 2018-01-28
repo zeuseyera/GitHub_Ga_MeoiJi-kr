@@ -111,24 +111,23 @@ By using GitHub’s @mention system in your pull request message, you can ask fo
 
 #### 1 단계
 
-**pull request(요청끌어오기)** 탭을 클릭한다, 그런다음 요청끌어오기(pull request) 페이지에서, **new pull request(새요청끌어오기)** 의 녹색버튼을 클릭한다.
-<p align="center"><img width="50%" src="images/pr-tap.gif" /></p>  
+**pull request(요청끌어오기)** 탭을 클릭한다, 그런다음 요청끌어오기(pull request) 페이지에서, **new pull request(새요청끌어오기)** 의 녹색버튼을 클릭한다.  
+<p align="center"><img width="50%" src="images/pr-tab.gif" /></p>  
 
 #### 2 단계
-**Example Comparisons(본보기 비교)** 상자에서 자신이 만든 가지(branch)를 선택한다, _readme-edits_, _줄기(master)_ (원본)와 비교하기 위하여.
+**Example Comparisons(본보기 비교)** 상자에서 자신이 만든 가지(branch)를 선택한다, _readme-edits_, _줄기(master)_ (원본)와 비교하기 위하여.  
 <p align="center"><img width="50%" src="images/pick-branch.png" /></p>  
 
 #### 3 단계
-비교페이지의 다름에서 자신의 변경사항을 살펴본다, 그들이 원하는 제안을 확실히 한다.
+비교페이지의 다름에서 자신의 변경사항을 살펴본다, 그들이 원하는 제안을 확실히 한다.  
 <p align="center"><img width="50%" src="images/diff.png" /></p>  
 
 #### 4 단계
-원하는 제안의 변경사항이 만족 스럽다면, 큰 녹색의 **Create Pull Request(요청끌어오기 생성)** 버튼을 클릭한다.
+원하는 제안의 변경사항이 만족 스럽다면, 큰 녹색의 **Create Pull Request(요청끌어오기 생성)** 버튼을 클릭한다.  
 <p align="center"><img width="50%" src="images/create-pr.png" /></p>  
 
 #### 5 단계
-Give your pull request a title and write a brief description of your changes.
-요청끌어오기(pull request)의 제목을 지정한다 그리고 자신의 변경사항의 간략한 묘사를 기록한다.
+요청끌어오기(pull request)의 제목을 지정한다 그리고 자신의 변경사항의 간략한 묘사를 기록한다.  
 <p align="center"><img width="50%" src="images/pr-form.png" /></p>  
 
 자신의 알림이 끝나면, **Create pull request(요청끌어오기 생성)** 을 클릭한다!
