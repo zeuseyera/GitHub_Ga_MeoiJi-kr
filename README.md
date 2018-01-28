@@ -145,7 +145,7 @@ In this final step, it’s time to bring your changes together – merging your 
 <p align="center"><img width="70%" src="images/merge-button.png" /></p>
  
 ### 축하한다! Celebrate!
-By completing this tutorial, you’ve learned to create a project and make a pull request on GitHub! :tada::otctocat::zap:
+By completing this tutorial, you’ve learned to create a project and make a pull request on GitHub! :tada::octocat::zap:
 
 Here’s what you accomplished in this tutorial:
 
