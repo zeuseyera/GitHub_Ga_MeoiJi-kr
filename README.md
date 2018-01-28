@@ -143,6 +143,7 @@ In this final step, it’s time to bring your changes together – merging your 
 3. Go ahead and delete the branch, since its changes have been incorporated, with the **Delete branch** button in the purple box.  
 
 <p align="center"><img width="70%" src="images/merge-button.png" /></p>
+<p align="center"><img width="70%" src="images/delete-button.png" /></p>
  
 ### 축하한다! Celebrate!
 By completing this tutorial, you’ve learned to create a project and make a pull request on GitHub! :tada::octocat::zap:
@@ -156,7 +157,7 @@ Here’s what you accomplished in this tutorial:
 
 Take a look at your GitHub profile and you’ll see your new contribution squares!
 
-To learn more about the power of Pull Requests, we recommend reading the GitHub Flow Guide. You might also visit GitHub Explore and get involved in an Open Source project :otctocat:
+To learn more about the power of Pull Requests, we recommend reading the GitHub Flow Guide. You might also visit GitHub Explore and get involved in an Open Source project :octocat:
 
 Tip: Check out our other Guides, YouTube Channel and On-Demand Training for more on how to get started with GitHub.
 
