@@ -158,6 +158,6 @@ _큰판에 대한 이미지는 클릭한다_
 
 자신의 깃허브 윤곽(profile)을 본다 그리고 자신의 새로운 이바지 [사각형(contribution squares, 영문)](https://help.github.com/articles/viewing-contributions)을 볼 수 있다!
 
-긁어오기요청(Pull Request)의 능력에 대해 더 배우려면, 우리는 [깃허브 흐름 안내](./SunSeo/SunSeoAlGi.md)[(영문)](http://guides.github.com/overviews/flow) 읽기를 권고한다. 또한 당신은 [깃허브 탐험(영문)](http://github.com/explore)을 방문할 수 있다 그리고 공개자료과제(Open Source project)에 참여하자 :octocat:
+긁어오기요청(Pull Request)의 능력에 대해 더 배우려면, 우리는 [:kr:깃허브 흐름 안내](./SunSeo/SunSeoAlGi.md)[(영문)](http://guides.github.com/overviews/flow) 읽기를 권고한다. 또한 당신은 [깃허브 탐험(영문)](http://github.com/explore)을 방문할 수 있다 그리고 공개자료과제(Open Source project)에 참여하자 :octocat:
 
 > 조언: 다른 [안내(영문)](http://guides.github.com/), 깃허브를 시작하는 방법에 대한 더많은 것은 [유튜브채널(영문)](http://youtube.com/githubguides)과 [주문 수련(On-Demand Training, 영문)](https://services.github.com/on-demand/) 를 확인하시오.
